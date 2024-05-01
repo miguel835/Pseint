@@ -1,14 +1,12 @@
 Algoritmo Circulo
 	//Calcular el área y el perimetro de un circulo 
-	Definir area, radio, perimetro, diametro Como Real; 
+	Definir area, radio, perimetro Como Real; 
 	Escribir "Cálculo del área de un circulo";
 	Escribir "Ingrese el radio del circulo";
 	Leer radio;
-	area = PI * radio;
+	area = PI * radio * radio;
 	Escribir "El area del circulo es de: ", area;
 	Escribir "Cálculo del perimetro de un circulo"; 
-	Escribir "Ingrese el diametro del circulo"; 
-	Leer diametro;
-	perimetro = PI * diametro;
+	perimetro = 2 * PI * radio;
 	Escribir "El perimetro del circulo es de: ", perimetro;
 FinAlgoritmo
